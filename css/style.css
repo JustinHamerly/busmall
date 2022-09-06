@@ -3,8 +3,18 @@ html{
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: aquamarine;
+  background: rgba(127, 255, 212, .5);
   min-width: 950px;
+}
+
+#bg-img {
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 
 body{
