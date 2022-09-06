@@ -1,0 +1,88 @@
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: aquamarine;
+  min-width: 950px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 1200px;
+}
+
+h1, h3 {
+  color: rgb(29, 51, 32);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 0px 0px 15px white;
+}
+
+header, footer{
+  background-color: antiquewhite;
+  border: 10px rgb(29, 51, 32) solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+#images {
+  width: 100%;
+}
+
+#imagesflex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 10px rgb(29, 51, 32) solid;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+
+}
+
+.productImage {
+  max-width: 250px;
+  max-height: 250px;
+  background-color: antiquewhite;
+  border: 1px rgb(124, 129, 124) solid;
+  margin: 20px;
+}
+
+#showResults{
+  width: 400px;
+  height: 150px;
+  background-color: antiquewhite;
+  border: 10px rgb(29, 51, 32) solid;
+  font-size: 60px;
+  transition: .3s;
+}
+
+#showResults:hover, #reset:hover {
+  background-color: #3e8e41;
+  color: antiquewhite;
+}
+
+#reset{
+  width: 200px;
+  height: 50px;
+  background-color: antiquewhite;
+  border: 10px rgb(29, 51, 32) solid;
+  font-size: 24px;
+  transition: .3s;
+}

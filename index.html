@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Odd Duck Products</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body>
+  
+  <header class='container'>
+    <h1>Odd Duck Products</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="cart.html">Cart</a><span id="itemCount"></span></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="images" class='container'>
+      <div id="imagesflex">
+        <img src="" alt="" id='imgOne' class='productImage'>
+        <img src="" alt="" id='imgTwo' class='productImage'>
+        <img src="" alt="" id='imgThree' class='productImage'>
+      </div>
+    </section>
+
+    <section class='container'>
+      <button type="button" name="button" id='showResults' hidden>View Results</button>
+      <div id='results'>
+      </div>
+    </section>
+
+    <section id="chart">
+      <canvas id="canvas" width="0" height="0"></canvas>
+    </section>
+
+    <button type='button' name='reset' id='reset' hidden>Reset</button>
+
+  </main>
+
+  <footer>
+    <h3>Odd Duck 2022</h3>
+    <script type="text/javascript" src='js/appm-w.js'></script>
+  </footer>
+</body>
+
+</html>
